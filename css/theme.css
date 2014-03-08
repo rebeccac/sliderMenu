@@ -1,0 +1,50 @@
+#navigation ul li {
+  padding: 15px 0 0 15px; }
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #f2f2eb;
+  padding-left: 15px; }
+#navigation .menu-item {
+  position: absolute;
+  left: 60px; }
+
+.additional-info {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.4em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #f2f2eb;
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  text-align: center; }
+
+.sliderButton {
+  display: inline-block;
+  top: 10px;
+  margin-left: 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: #747474;
+  border: 1px solid #bebebe;
+  line-height: 34px; }
+  .sliderButton a {
+    color: #f2f2eb;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 34px;
+    height: 34px; }
+    .sliderButton a, .sliderButton a:hover, .sliderButton a:active {
+      text-decoration: none; }
+
+.page-body,
+.slidermenu {
+  -webkit-transition: all 0.2s linear !important;
+  -moz-transition: all 0.2s linear !important;
+  -ms-transition: all 0.2s linear !important;
+  -o-transition: all 0.2s linear !important;
+  transition: all 0.2s linear !important; }
